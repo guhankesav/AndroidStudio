@@ -6,7 +6,6 @@
    android:layout_height="match_parent"
    android:orientation = "vertical"
    tools:context=".MainActivity">
-
    <TextView
        android:id="@+id/initVal"
        android:layout_width="wrap_content"
