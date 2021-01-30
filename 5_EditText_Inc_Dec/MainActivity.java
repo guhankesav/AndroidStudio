@@ -25,7 +25,6 @@ public class MainActivity extends AppCompatActivity {
        tv1 = findViewById(R.id.count);
        ed1 = findViewById(R.id.et_initalValue);
 
-       //counter = Integer.valueOf(ed1.getText().toString()).intValue();
 
        b1.setOnClickListener(new View.OnClickListener() {
                                  @Override
