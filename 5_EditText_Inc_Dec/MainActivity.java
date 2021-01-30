@@ -1,4 +1,4 @@
-package com.example.a3_textview_edittext;
+package com.example.package_name;
 
 import androidx.appcompat.app.AppCompatActivity;
 
