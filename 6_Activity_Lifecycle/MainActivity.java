@@ -1,4 +1,5 @@
-// Test cases - Find the difference in callbacks when -
+/
+ / Test cases - Find the difference in callbacks when -
 // 1. device rotation,
 // 2. back button pressed
 // 3. Home button pressed
