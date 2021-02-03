@@ -24,4 +24,5 @@
        android:layout_height="wrap_content"
        android:id="@+id/dec"
        android:text="Decrement"/>
+   
 </LinearLayout>
