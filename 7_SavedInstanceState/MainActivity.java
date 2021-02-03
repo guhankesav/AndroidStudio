@@ -20,10 +20,10 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
    Button b1,b2;
    TextView t1;
    int count =0;
+
    @Override
    protected void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
-      
 // set the user interface layout for this activity
 // layout file is defined in the project res/layout/main_activity.xml file
        setContentView(R.layout.activity_main);
