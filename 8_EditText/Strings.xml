@@ -3,5 +3,4 @@
    <string name="textview_text">EditText Example</string>
    <string name="button_text">Click here to Toast</string>
    <string name="edit_hint">Enter your input number here</string>
-
 </resources>
