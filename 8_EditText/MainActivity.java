@@ -1,7 +1,6 @@
 package com.example.a6_edittext;
 
 import androidx.appcompat.app.AppCompatActivity;
-
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
