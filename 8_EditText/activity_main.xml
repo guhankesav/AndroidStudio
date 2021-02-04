@@ -99,5 +99,4 @@
        android:text="RESULT HERE"
        android:textSize="15dp"/>
 
-
 </RelativeLayout>
