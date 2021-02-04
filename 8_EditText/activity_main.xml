@@ -98,5 +98,4 @@
        android:layout_below="@+id/btnSend"
        android:text="RESULT HERE"
        android:textSize="15dp"/>
-
 </RelativeLayout>
