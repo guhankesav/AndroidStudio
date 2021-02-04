@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   tools:context=".MainActivity">
+
+   <TextView
+       android:id="@+id/textView1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="30dp"
+       android:layout_marginTop="20dp"
+       android:textColor="@color/colorAccent"
+       android:textSize="22sp"
+       android:text="@string/textview_text" />
+
+   <Button
+       android:id="@+id/button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/textView1"
+       android:layout_below="@+id/textView1"
+       android:layout_marginTop="20dp"
+       android:text="@string/button_text" />
+
+   <EditText
+       android:id="@+id/edtxtName"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@id/button"
+       android:layout_marginTop="20dp"
+       android:hint="Enter your Name here"
+       android:inputType="text"
+       android:selectAllOnFocus="true" />
+
+   <EditText
+       android:id="@+id/edtxtNum"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:layout_alignLeft="@+id/edtxtName"
+       android:layout_below="@+id/edtxtName"
+       android:layout_marginTop="20dp"
+       android:hint="Number here"
+       android:inputType="number" />
+
+   <EditText
+       android:id="@+id/edtxtPwd"
+       android:layout_width="150dp"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/edtxtName"
+       android:layout_marginTop="20dp"
+       android:layout_marginLeft="20dp"
+       android:layout_toRightOf="@+id/edtxtNum"
+       android:hint="Password 0 to 9"
+       android:inputType="numberPassword" />
+
+   <EditText
+       android:id="@+id/edttxtEmail"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/edtxtNum"
+       android:hint="Email"
+       android:inputType="textEmailAddress" />
+
+   <EditText
+       android:id="@+id/edttxtDate"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/edttxtEmail"
+       android:hint="Date"
+       android:inputType="date" />
+
+   <EditText
+       android:id="@+id/edttxtPhone"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/edttxtDate"
+       android:hint="Phone Number"
+       android:inputType="phone"
+       android:textColorHint="#FE8DAB"/>
+
+   <Button
+       android:id="@+id/btnSend"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_below="@+id/edttxtPhone"
+       android:text="submit"
+       android:textSize="16sp"
+       android:textStyle="normal|bold|italic" />
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/resultView"
+       android:layout_marginTop="25dp"
+       android:layout_below="@+id/btnSend"
+       android:text="RESULT HERE"
+       android:textSize="15dp"/>
+
+
+
+</RelativeLayout>
