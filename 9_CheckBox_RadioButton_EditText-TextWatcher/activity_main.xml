@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+   xmlns:app="http://schemas.android.com/apk/res-auto"
+   xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+   android:layout_height="match_parent"
+   android:orientation="vertical"
+   android:paddingTop="10dp"
+   android:paddingBottom="10dp"
+   android:paddingLeft="10dp"
+   android:paddingRight="10dp"
+   tools:context=".MainActivity">
+
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Enter Number: "
+       android:textColor="@color/colorAccent"
+       android:textAllCaps="true"
+       android:id="@+id/t1"/>
+
+   <EditText
+       android:id="@+id/editText"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:inputType="number"
+       android:maxLength="4"
+       android:hint="Enter a Number here"
+       />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="10dp"
+       android:text="Select the courses"
+       android:gravity="center"
+       android:textAllCaps="true"/>
+
+   <CheckBox
+       android:id="@+id/checkBox1"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:gravity="left|center"
+       android:checked="true"
+       android:text="Android" />
+
+   <CheckBox
+       android:id="@+id/checkBox2"
+       android:layout_width="116dp"
+       android:layout_height="wrap_content"
+       android:text="Cloud Computing" />
+
+
+   <RadioButton
+       android:id="@+id/radioButton1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_gravity="left"
+       android:text="Cryptography"
+       android:layout_marginTop="20dp"
+       android:checked="true"
+       android:textSize="20dp" />
+
+
+   <RadioButton
+       android:id="@+id/radioButton2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:text="Web Development"
+       android:layout_marginTop="10dp"
+
+       android:textSize="20dp" />
+
+
+
+   <View
+       android:layout_width="fill_parent"
+       android:layout_height="1dp"
+       android:layout_marginTop="20dp"
+       android:background="#B8B894" />
+
+   <TextView
+       android:id="@+id/textView2"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content"
+       android:layout_marginTop="30dp"
+       android:gravity="center_horizontal"
+       android:textSize="22dp"
+       android:text="Radio button inside RadioGroup" />
+
+
+   <!--   Customized RadioButtons  -->
+
+
+   <RadioGroup
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:id="@+id/radioGroup">
+
+       <RadioButton
+           android:id="@+id/radioElective"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="  Elective"
+           android:layout_marginTop="10dp"
+           android:textSize="20dp" />
+
+       <RadioButton
+           android:id="@+id/radioCore"
+           android:layout_width="fill_parent"
+           android:layout_height="wrap_content"
+           android:text="   Core"
+           android:layout_marginTop="20dp"
+           android:checked="false"
+           android:textSize="20dp" />
+   </RadioGroup>
+
+   <Button
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Show Selected"
+       android:id="@+id/button"
+       android:onClick="onclickbuttonMethod"
+       android:layout_gravity="right" />
+
+</LinearLayout>
