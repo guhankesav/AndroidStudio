@@ -116,7 +116,6 @@ public class MainActivity extends AppCompatActivity
            Toast.makeText(MainActivity.this,subRadioButton.getText()+" is selected", Toast.LENGTH_SHORT).show();
        }
    }
-
    //RadioGroup.OnCheckedChangeListener
    @Override
    public void onCheckedChanged(RadioGroup radioGroup1, int i) {
