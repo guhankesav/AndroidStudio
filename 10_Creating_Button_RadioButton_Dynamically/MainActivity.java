@@ -40,8 +40,6 @@ public class MainActivity extends AppCompatActivity {
        Button b = new Button (this);
        b.setText("Test");
 
-
-
        
 // Creating layout parameters - layout_height,layout_width // for radio buttons and button as array
 // params[0] - radio group, params[1] - button
