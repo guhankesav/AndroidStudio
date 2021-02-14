@@ -18,8 +18,6 @@ public class MainActivity extends AppCompatActivity {
        super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_main);
 
-
-
 // Get access to the layout object
              rl = (RelativeLayout) findViewById(R.id.relativeLayout);
 
