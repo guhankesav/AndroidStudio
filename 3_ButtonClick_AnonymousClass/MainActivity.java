@@ -10,7 +10,6 @@ public class MainActivity extends AppCompatActivity {
    protected void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_main); // Linking XML file with the activity class
-
        b2 = findViewById(R.id.button2);
 
        b2.setOnClickListener(
