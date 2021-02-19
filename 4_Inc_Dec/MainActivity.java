@@ -18,7 +18,6 @@ public class MainActivity extends AppCompatActivity {
    protected void onCreate(Bundle savedInstanceState) {
        super.onCreate(savedInstanceState);
        setContentView(R.layout.activity_main);
-
        b1 = findViewById(R.id.inc);
        b2 = findViewById(R.id.dec);
        tv1 = findViewById(R.id.count);
