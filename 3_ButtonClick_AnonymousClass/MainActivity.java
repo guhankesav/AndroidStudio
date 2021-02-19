@@ -32,6 +32,5 @@ public class MainActivity extends AppCompatActivity {
           		 }
        	} // end anonymous class
       );  // end b3..setonclicklistener
-
   } // end onCreate()
 } // end MainActivity
