@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
       	 }
       ); // end b2.setonclicklistener
 
-
        b3= findViewById(R.id.button3);
 
        b3.setOnClickListener(
