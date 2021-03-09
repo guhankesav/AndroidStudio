@@ -12,5 +12,7 @@
        android:layout_height="wrap_content"
        android:onClick="myButtonClickMethod"
        android:text="Button 1" />
+   
+   
 
 </LinearLayout>
