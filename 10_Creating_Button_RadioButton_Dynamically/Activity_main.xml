@@ -7,8 +7,7 @@
    android:paddingBottom="10dp"
    android:paddingLeft="10dp"
    android:paddingRight="10dp"
-   android:paddingTop="10dp"
-                
+   android:paddingTop="10dp"                
    android:id="@+id/relativeLayout"
    tools:context=".MainActivity">
    
