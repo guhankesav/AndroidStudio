@@ -17,14 +17,7 @@ public class MainActivity extends AppCompatActivity {
         // Toast / log the current method name
         Toast.makeText(this, "onCreate invoked",
                        
-                       
-                       
-                       
-                       
-                       
-                       
-                       
-                       
+
                 Toast.LENGTH_SHORT).show();
         Log.d("MainActivity", "onCreate invoked");
 
