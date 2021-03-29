@@ -4,10 +4,7 @@
 // 3. Home button pressed
 // and record your observations
 public class MainActivity extends AppCompatActivity {
-4
-    
-    
-    
+
     
     
     
