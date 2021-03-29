@@ -4,7 +4,13 @@
 // 3. Home button pressed
 // and record your observations
 public class MainActivity extends AppCompatActivity {
-
+4
+    
+    
+    
+    
+    
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
