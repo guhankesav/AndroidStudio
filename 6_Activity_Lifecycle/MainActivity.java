@@ -13,6 +13,15 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         // Toast / log the current method name
         Toast.makeText(this, "onCreate invoked",
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
+                       
                 Toast.LENGTH_SHORT).show();
         Log.d("MainActivity", "onCreate invoked");
 
