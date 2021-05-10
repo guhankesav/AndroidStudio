@@ -9,6 +9,8 @@ public class MainActivity extends AppCompatActivity {
        //setContentView(R.layout.activity_main);
       //uncomment line below for vertical scroll view
        setContentView(R.layout.vertical_scroll_view);
+      
+      
    }
 }
 
