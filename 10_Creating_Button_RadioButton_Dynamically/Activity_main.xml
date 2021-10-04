@@ -11,8 +11,7 @@
    android:paddingTop="10dp"                
    android:id="@+id/relativeLayout"
    tools:context=".MainActivity">
-   <?xml version="1.0" encoding="utf-8"?>
-
+ 
    
    
    <TextView
